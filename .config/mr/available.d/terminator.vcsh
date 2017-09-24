@@ -1,2 +1,4 @@
 [$HOME/.config/vcsh/repo.d/terminator.git]
-checkout = vcsh clone git@github.com:Pistahh/dot-terminator.git terminator
+checkout =
+    vcsh clone https://github.com/Pistahh/dot-terminator.git terminator
+    vcsh terminator remote set-url --push origin git@github.com:Pistahh/dot-terminator.git
