@@ -1,2 +1,4 @@
 [$HOME/.config/vcsh/repo.d/tmux.git]
-checkout = vcsh clone git@github.com:Pistahh/dot-tmux.git tmux
+checkout =
+    vcsh clone https://github.com/Pistahh/dot-tmux.git tmux
+vcsh tmux remote set-url --push origin git@github.com:Pistahh/dot-tmux.git
