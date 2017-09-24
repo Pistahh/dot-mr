@@ -1,4 +1,4 @@
 [$HOME/.config/vcsh/repo.d/git.git]
 checkout =
-    vcsh clone https://github.com/Pistahh/dot-git.git
+    vcsh clone https://github.com/Pistahh/dot-git.git git
     vcsh git remote set-url --push git@github.com:Pistahh/dot-git.git git
