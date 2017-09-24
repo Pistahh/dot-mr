@@ -1,2 +1,4 @@
 [$HOME/.config/vcsh/repo.d/zsh.git]
-checkout = vcsh clone git@github.com:Pistahh/dot-zsh.git zsh
+checkout =
+    vcsh clone https://github.com/Pistahh/dot-zsh.git zsh
+    vcsh zsh remote set-url --push origin git@github.com:Pistahh/dot-zsh.git
