@@ -1,2 +1,4 @@
 [$HOME/.config/vcsh/repo.d/vim.git]
-checkout = vcsh clone git@github.com:Pistahh/dot-vim.git vim
+checkout =
+    vcsh clone https://github.com/Pistahh/dot-vim.git vim
+    vcsh vim remote set-url --push origin git@github.com:Pistahh/dot-vim.git
