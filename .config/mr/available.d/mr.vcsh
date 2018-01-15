@@ -3,3 +3,4 @@ checkout =
   vcsh clone https://github.com/Pistahh/dot-mr.git mr
   vcsh mr remote set-url --push origin git@github.com:Pistahh/dot-mr.git
   
+    vcsh git config status.showUntrackedFiles no

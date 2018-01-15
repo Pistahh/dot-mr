@@ -2,3 +2,4 @@
 checkout =
     vcsh clone https://github.com/Pistahh/dot-zsh.git zsh
     vcsh zsh remote set-url --push origin git@github.com:Pistahh/dot-zsh.git
+    vcsh git config status.showUntrackedFiles no
